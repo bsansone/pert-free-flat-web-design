@@ -1,0 +1,214 @@
+/*
+    GLOBALS
+*/
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    font-size: 16px;
+}
+
+a {
+    color: #6dc5ea;
+    text-decoration: none;
+}
+
+header {
+    background: url(images/header-bg.png) no-repeat center center fixed;
+    background-size: cover;
+    height: 651px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+footer {
+    font-size: 12px;
+    height: 101px;
+    text-align: center;
+}
+
+footer p {
+    padding-top: 50px;
+}
+
+strong {
+    font-weight: 600;
+}
+
+em {
+    font-style: italic;
+}
+
+
+/*
+    #ABOUT
+*/
+
+#about {
+    height: 651px;
+    background-color: #f4f4f4;
+    overflow: hidden;
+}
+
+#about article {
+    margin-top: 148px;
+    margin-left: 160px;
+    width: 548px;
+}
+
+#about blockquote {
+    padding-left: 17px;
+    border-left: 6px solid #4eacdd;
+    line-height: 28.5px;
+}
+
+#about button {
+    border: 2px solid #14af8f;
+    margin-top: 71px;
+    background: inherit;
+    color: #14af8f;
+    padding-left: 30px;
+}
+
+#about button i {
+    padding: 23px 33px 21px 17px;
+}
+
+#about p {
+    line-height: 28.5px;
+    margin-top: 35px;
+    margin-bottom: 33px;
+}
+
+#about img {
+    margin-top: -400px;
+    float: right;
+}
+
+
+/*
+    #PORTFOLIO
+*/
+
+#portfolio {
+    height: 650px;
+    overflow: hidden;
+}
+
+#portfolio article {
+    margin-top: 104px;
+    margin-left: 1260px;
+    width: 382px;
+}
+
+#portfolio button {
+    border: 2px solid #ea4c89;
+    margin-top: 60px;
+    background: inherit;
+    color: #ea4c89;
+    padding-left: 30px;
+}
+
+#portfolio button i {
+    padding: 22px 34px 21px 16px;
+}
+
+#portfolio p {
+    line-height: 28.5px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+#portfolio img {
+    float: left;
+    margin-top: 283px;
+}
+
+
+/*
+    #DONATE
+*/
+
+#donate {
+    background: url(images/donate-bg.png) no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    height: 326px;
+    text-align: center;
+}
+
+#donate h1 {
+    font-size: 40px;
+    padding-top: 99px;
+    margin-bottom: 42px;
+}
+
+#donate button {
+    font-size: 15px;
+    border: 2px solid #fff;
+    background: inherit;
+    color: #fff;
+    padding-left: 38px;
+}
+
+#donate button i {
+    padding: 22px 38px 22px 17px;
+}
+
+
+/*
+    #CONTACT
+*/
+
+#contact {
+    height: 650px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+#contact article {
+    padding-top: 243px;
+}
+
+#contact button {
+    margin-right: 35px;
+    margin-bottom: 67px;
+}
+
+#contact form h3 {
+    font-style: italic;
+    display: inline-block;
+    padding-right: 24px;
+}
+
+#contact input[type=email] {
+    width: 217px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    height: 43px;
+    border: none;
+    border-radius: 10px;
+    color: #d3d3d3;
+    font-style: italic;
+}
+
+
+/*
+    CLASSES
+*/
+
+.btn-circle {
+    height: 56px;
+    width: 56px;
+    text-align: center;
+    font-size: 18px;
+    border: 2px solid #545454;
+    color: #545454;
+    border-radius: 30px;
+    background-color: inherit;
+}
